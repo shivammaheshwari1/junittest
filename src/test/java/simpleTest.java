@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.*;
  
-public class simpletest {
+public class simpleTest {
   
     @Test
     public void isGreaterTest() {
