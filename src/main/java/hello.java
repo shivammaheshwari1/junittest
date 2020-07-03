@@ -2,7 +2,7 @@ public class hello{
 public hello()
 {
 }
-public String concat(String a,String b)
+public int add(int a,int b)
 {
 return a + b;
 }
