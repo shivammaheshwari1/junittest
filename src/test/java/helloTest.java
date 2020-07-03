@@ -14,7 +14,7 @@ System.out.println(result);
 public void checkfail(){
 System.out.println("test2");
 String result1 = hel.concat("Hello ", "World1");
-Assert.assertEquals("Hello World", result);
-System.out.println(result);  
+Assert.assertEquals("Hello World", result1);
+System.out.println(result1);  
 }
 }
