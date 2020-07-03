@@ -6,15 +6,15 @@ hello hel=new hello();
 @Test
 public void check(){
 System.out.println("test1");
-String result = hel.concat("Hello ", "World");
-Assert.assertEquals("Hello World", result);
+int result = hel.add(1, 2);
+Assert.assertEquals(3, result);
 System.out.println(result);
 }
 @Test
 public void checkfail(){
 System.out.println("test2");
-String result1 = hel.concat("Hello ", "World1");
-Assert.assertEquals("Hello World", result1);
+int result1 = hel.add(1, 2);
+Assert.assertEquals(4, result1);
 System.out.println(result1);  
 }
 }
